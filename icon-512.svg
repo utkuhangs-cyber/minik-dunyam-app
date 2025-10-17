@@ -1,0 +1,39 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gradient Background -->
+  <defs>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle with shadow effect -->
+  <circle cx="256" cy="256" r="256" fill="url(#grad2)"/>
+  
+  <!-- Shadow for depth -->
+  <circle cx="256" cy="190" r="75" fill="#000" opacity="0.1"/>
+  <circle cx="256" cy="350" r="105" fill="#000" opacity="0.1"/>
+  
+  <!-- Baby Icon -->
+  <circle cx="256" cy="185" r="75" fill="#fff" opacity="0.95"/>
+  <circle cx="256" cy="345" r="100" fill="#fff" opacity="0.95"/>
+  
+  <!-- Happy Face -->
+  <circle cx="235" cy="175" r="11" fill="#667eea"/>
+  <circle cx="277" cy="175" r="11" fill="#667eea"/>
+  <path d="M 215 200 Q 256 225 297 200" stroke="#667eea" stroke-width="8" fill="none" stroke-linecap="round"/>
+  
+  <!-- Cheeks -->
+  <circle cx="210" cy="190" r="15" fill="#f472b6" opacity="0.4"/>
+  <circle cx="302" cy="190" r="15" fill="#f472b6" opacity="0.4"/>
+  
+  <!-- Heart -->
+  <path d="M 256 410 L 230 385 Q 215 370 215 355 Q 215 330 240 330 Q 250 330 256 342 Q 262 330 272 330 Q 297 330 297 355 Q 297 370 282 385 Z" fill="#f472b6" opacity="0.9"/>
+  
+  <!-- Decorative stars -->
+  <text x="140" y="120" font-size="40" fill="#fff" opacity="0.6">★</text>
+  <text x="340" y="140" font-size="35" fill="#fff" opacity="0.5">★</text>
+  <text x="380" y="300" font-size="30" fill="#fff" opacity="0.4">★</text>
+  <text x="120" y="380" font-size="35" fill="#fff" opacity="0.5">★</text>
+</svg>
+
